@@ -54,6 +54,7 @@ void freedp(void *p){
   switch(Cpu_mode){
   case PORT:
   default:
+  ;
 #ifdef __i386__
   case MMX:
   case SSE:
